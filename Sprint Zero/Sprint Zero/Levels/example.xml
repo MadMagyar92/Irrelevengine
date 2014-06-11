@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<objects>
+	<terrain>
+		<Terrain x="50" y="50" width="16" height="16"></Terrain>
+	</terrain>
+	
+	<collectable>
+		<sunscreen x="150" y="50" width="16" height="16" duration="180"></sunscreen>
+		<bubbleshield x="250" y="50" width="16" height="16" duration="180"></bubbleshield>
+		<invincibilitystar x="350" y="50" width="16" height="16" duration="180"></invincibilitystar>
+		<waterbottle x="450" y="50" width="16" height="16" duration="0"></waterbottle>
+	</collectable>
+	
+	<item>
+		<crate x="550" y="50" width="16" height="16"></crate>
+		<button x="650" y="50" width="16" height="16"></button>
+		<fishbowl x="750" y="50" width="16" height="16"></fishbowl>
+	</item>
+	
+	<enemy>
+		<hortoise x="50" y="150" width="16" height="16" orientation="left" power="25"></hortoise>
+		<spider x="150" y="150" width="16" height="16" orientation="down" power="25"></spider>
+		<cactus x="250" y="150" width="16" height="16" orientation="left" power="25"></cactus>
+	</enemy>
+	
+	<character>
+		<Character x="350" y="150" width="16" height="16" health="10000" waterlevel="0"></Character>
+	</character>
+
+  <camera>
+    <Camera x="0" y="0" width="805" height="480" minx="0" maxx="1000" miny="0" maxy="700" paddingx="320" paddingy="175" scale="2"></Camera>
+  </camera>
+</objects>

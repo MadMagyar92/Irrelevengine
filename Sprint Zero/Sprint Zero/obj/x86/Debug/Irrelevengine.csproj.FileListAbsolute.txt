@@ -1,0 +1,107 @@
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-4\Level4.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\example.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-1\Level1C.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-1\Level1A.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-1\Level1B.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-2\Level2.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level 1-3\Level3.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Levels\Level Hub\LevelHub.xml
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\HortoiseSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\SpiderSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\CactusSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\NeedleSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ButtonSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\CrateSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\FishbowlSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryIdle.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryJump.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryRun.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteIdle.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteJump.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpritePush.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteRun.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite2.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite2.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteDead.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\BubbleshieldSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\StarSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\SunscreenSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\SunscreenSprite2.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\WaterbottleSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\GameOver.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HeartEmptySprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HeartFullSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl0p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl100p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl25p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl50p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl75p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDPowerupContainer.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\DoorClosedSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\DoorOpenSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\SecretDoorClosedSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\SecretDoorOpenSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\Start Menu\LevelMenu.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\Start Menu\StartMenu.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryIdleDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryJumpDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryRunDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteDeadDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteIdleDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteJumpDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpritePushDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteRunDS.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteDeadSMB.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteIdleSMB.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteJumpSMB.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteRunSMB.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\BillSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\CannonSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\GoombaSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\SpinySprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask100p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask75p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask50p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask25p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask0p.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\LavaSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorLeft.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorMiddle.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorRight.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\Teleporter.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\CoinSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\HealthBottleSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentHospital\HospitalBackgroundSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentHospital\HospitalSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\TimestopSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SpikedTerrain.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDS\BoulderSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\BrickSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\BonfireSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\DSBackgroundSprite.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\JoeBota.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\InTheDesert.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\DoorOpen.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\InTheHospital.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\ButtonPressed.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CactusShooting.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CharacterHurt.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CharacterJumping.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CollectibleCollected.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CrateLanding.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CrateMoving.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\EnemyDeath.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\FishbowlShattered.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\Placeholder.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\ScoreFont.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\SoulsFont.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\DeathFont.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\LightFont.xnb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Sprint Zero.exe
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Sprint Zero.pdb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\obj\x86\Debug\Sprint Zero.exe
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\obj\x86\Debug\Sprint Zero.pdb
+C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\obj\x86\Debug\Irrelevengine.csprojResolveAssemblyReference.cache

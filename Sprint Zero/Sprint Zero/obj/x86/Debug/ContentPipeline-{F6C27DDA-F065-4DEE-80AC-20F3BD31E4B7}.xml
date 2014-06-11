@@ -1,0 +1,884 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<XnaContent xmlns:Pipeline="Microsoft.Xna.Framework.Content.Pipeline">
+  <Asset Type="Pipeline:BuildItemCollection">
+    <Item>
+      <Source>Sprites\EnemySprites\EnemyDesert\HortoiseSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemyDesert\HortoiseSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\HortoiseSprite.xnb</Output>
+      <Time>2014-02-03T18:46:47.833658-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemyDesert\SpiderSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemyDesert\SpiderSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\SpiderSprite.xnb</Output>
+      <Time>2014-02-03T17:47:44.5489937-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemyDesert\CactusSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemyDesert\CactusSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\CactusSprite.xnb</Output>
+      <Time>2014-02-11T22:03:20.1881277-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemyDesert\NeedleSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemyDesert\NeedleSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemyDesert\NeedleSprite.xnb</Output>
+      <Time>2014-02-11T22:04:00.6442439-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite.xnb</Output>
+      <Time>2014-03-13T20:00:04.3538486-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\ButtonSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\ButtonSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ButtonSprite.xnb</Output>
+      <Time>2014-02-12T15:17:35.8125557-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\CrateSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\CrateSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\CrateSprite.xnb</Output>
+      <Time>2014-02-16T18:23:44.895189-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\FishbowlSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\FishbowlSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\FishbowlSprite.xnb</Output>
+      <Time>2014-02-16T18:23:45.1012008-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite.xnb</Output>
+      <Time>2014-02-16T18:54:04.1425085-08:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryIdle.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryIdle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryIdle.xnb</Output>
+      <Time>2014-04-08T07:34:50.3932795-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryJump.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryJump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryJump.xnb</Output>
+      <Time>2014-04-08T07:34:50.3882792-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryRun.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryRun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteCarryRun.xnb</Output>
+      <Time>2014-04-08T07:34:50.3822789-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteIdle.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteIdle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteIdle.xnb</Output>
+      <Time>2014-04-08T07:34:50.3902794-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteJump.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteJump</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteJump.xnb</Output>
+      <Time>2014-04-08T07:34:50.3882792-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpritePush.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpritePush</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpritePush.xnb</Output>
+      <Time>2014-04-08T07:34:50.3892793-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteRun.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteRun</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteRun.xnb</Output>
+      <Time>2014-04-08T07:34:50.3442767-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite2.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SandstoneSprite2.xnb</Output>
+      <Time>2014-03-27T21:41:34.7568681-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite2.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\DesertBackgroundSprite2.xnb</Output>
+      <Time>2014-03-27T21:48:25.4113561-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteDead.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDesert\CharacterSpriteDead</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDesert\CharacterSpriteDead.xnb</Output>
+      <Time>2014-04-08T07:34:50.3412766-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\BubbleshieldSprite.png</Source>
+      <Name>Sprites\CollectableSprites\BubbleshieldSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\BubbleshieldSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.3624699-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\StarSprite.png</Source>
+      <Name>Sprites\CollectableSprites\StarSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\StarSprite.xnb</Output>
+      <Time>2014-04-16T21:10:41.8419582-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\SunscreenSprite.png</Source>
+      <Name>Sprites\CollectableSprites\SunscreenSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\SunscreenSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.39247-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\SunscreenSprite2.png</Source>
+      <Name>Sprites\CollectableSprites\SunscreenSprite2</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\SunscreenSprite2.xnb</Output>
+      <Time>2014-04-02T16:52:17.39247-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\WaterbottleSprite.png</Source>
+      <Name>Sprites\CollectableSprites\WaterbottleSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\WaterbottleSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.41247-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\GameOver.png</Source>
+      <Name>Sprites\HUD\HUDDesert\GameOver</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\GameOver.xnb</Output>
+      <Time>2014-04-02T16:52:17.4624701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HeartEmptySprite.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HeartEmptySprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HeartEmptySprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.4724701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HeartFullSprite.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HeartFullSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HeartFullSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.5224701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDBowl0p.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDBowl0p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl0p.xnb</Output>
+      <Time>2014-04-02T16:52:17.4724701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDBowl100p.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDBowl100p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl100p.xnb</Output>
+      <Time>2014-04-02T16:52:17.4724701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDBowl25p.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDBowl25p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl25p.xnb</Output>
+      <Time>2014-04-02T16:52:17.4924701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDBowl50p.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDBowl50p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl50p.xnb</Output>
+      <Time>2014-04-02T16:52:17.5224701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDBowl75p.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDBowl75p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDBowl75p.xnb</Output>
+      <Time>2014-04-02T16:52:17.4924701-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\HUDPowerupContainer.png</Source>
+      <Name>Sprites\HUD\HUDDesert\HUDPowerupContainer</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\HUDPowerupContainer.xnb</Output>
+      <Time>2014-04-02T16:52:17.5724702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\DoorClosedSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\DoorClosedSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\DoorClosedSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.5524702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\DoorOpenSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\DoorOpenSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\DoorOpenSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.5824702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\SecretDoorClosedSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\SecretDoorClosedSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\SecretDoorClosedSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.5624702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\SecretDoorOpenSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\SecretDoorOpenSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\SecretDoorOpenSprite.xnb</Output>
+      <Time>2014-04-02T16:52:17.5924702-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Start Menu\LevelMenu.png</Source>
+      <Name>Sprites\Start Menu\LevelMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\Start Menu\LevelMenu.xnb</Output>
+      <Time>2014-04-02T16:52:17.6524703-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\Start Menu\StartMenu.png</Source>
+      <Name>Sprites\Start Menu\StartMenu</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\Start Menu\StartMenu.xnb</Output>
+      <Time>2014-04-02T16:52:17.6624703-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryIdleDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryIdleDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryIdleDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.2964312-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryJumpDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryJumpDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryJumpDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3054317-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryRunDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryRunDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteCarryRunDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3124321-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteDeadDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteDeadDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteDeadDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3194325-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteIdleDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteIdleDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteIdleDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3544345-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteJumpDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteJumpDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteJumpDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3614349-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpritePushDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpritePushDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpritePushDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3674352-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterDS\CharacterSpriteRunDS.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterDS\CharacterSpriteRunDS</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterDS\CharacterSpriteRunDS.xnb</Output>
+      <Time>2014-04-07T21:19:58.3734356-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteDeadSMB.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteDeadSMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteDeadSMB.xnb</Output>
+      <Time>2014-04-07T22:12:01.0380418-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteIdleSMB.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteIdleSMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteIdleSMB.xnb</Output>
+      <Time>2014-04-07T22:12:01.0930449-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteJumpSMB.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteJumpSMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteJumpSMB.xnb</Output>
+      <Time>2014-04-07T22:12:01.1000453-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteRunSMB.png</Source>
+      <Name>Sprites\CharacterSprites\CharacterSMB\CharacterSpriteRunSMB</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CharacterSprites\CharacterSMB\CharacterSpriteRunSMB.xnb</Output>
+      <Time>2014-04-07T22:12:01.1070457-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemySMB\BillSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemySMB\BillSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\BillSprite.xnb</Output>
+      <Time>2014-04-08T20:01:28.4470461-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemySMB\CannonSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemySMB\CannonSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\CannonSprite.xnb</Output>
+      <Time>2014-04-08T20:01:28.463047-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemySMB\GoombaSprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemySMB\GoombaSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\GoombaSprite.xnb</Output>
+      <Time>2014-04-08T20:01:28.4700474-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnemySprites\EnemySMB\SpinySprite.png</Source>
+      <Name>Sprites\EnemySprites\EnemySMB\SpinySprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnemySprites\EnemySMB\SpinySprite.xnb</Output>
+      <Time>2014-04-08T20:01:28.4790479-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\HUDFlask100p.png</Source>
+      <Name>Sprites\HUD\HUDDS\HUDFlask100p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask100p.xnb</Output>
+      <Time>2014-04-08T20:17:25.6667959-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\HUDFlask75p.png</Source>
+      <Name>Sprites\HUD\HUDDS\HUDFlask75p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask75p.xnb</Output>
+      <Time>2014-04-08T20:19:51.2221212-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\HUDFlask50p.png</Source>
+      <Name>Sprites\HUD\HUDDS\HUDFlask50p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask50p.xnb</Output>
+      <Time>2014-04-08T20:24:36.3124274-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\HUDFlask25p.png</Source>
+      <Name>Sprites\HUD\HUDDS\HUDFlask25p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask25p.xnb</Output>
+      <Time>2014-04-08T20:23:47.7506499-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\HUDFlask0p.png</Source>
+      <Name>Sprites\HUD\HUDDS\HUDFlask0p</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\HUDFlask0p.xnb</Output>
+      <Time>2014-04-08T20:26:39.6544822-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\LavaSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\LavaSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\LavaSprite.xnb</Output>
+      <Time>2014-04-10T16:22:54.9382167-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\ConveyorLeft.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\ConveyorLeft</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorLeft.xnb</Output>
+      <Time>2014-04-10T17:39:14.4221482-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\ConveyorMiddle.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\ConveyorMiddle</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorMiddle.xnb</Output>
+      <Time>2014-04-10T17:39:14.4561501-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\ConveyorRight.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\ConveyorRight</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\ConveyorRight.xnb</Output>
+      <Time>2014-04-10T17:39:14.4591503-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDesert\Teleporter.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDesert\Teleporter</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDesert\Teleporter.xnb</Output>
+      <Time>2014-04-11T08:37:11.4633044-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\CoinSprite.png</Source>
+      <Name>Sprites\CollectableSprites\CoinSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\CoinSprite.xnb</Output>
+      <Time>2014-04-15T17:45:20.1594208-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\HealthBottleSprite.png</Source>
+      <Name>Sprites\CollectableSprites\HealthBottleSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\HealthBottleSprite.xnb</Output>
+      <Time>2014-04-12T13:23:42.301892-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentHospital\HospitalBackgroundSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentHospital\HospitalBackgroundSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentHospital\HospitalBackgroundSprite.xnb</Output>
+      <Time>2014-04-11T08:39:07.6739513-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentHospital\HospitalSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentHospital\HospitalSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentHospital\HospitalSprite.xnb</Output>
+      <Time>2014-04-11T08:39:20.956711-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\TimestopSprite.png</Source>
+      <Name>Sprites\CollectableSprites\TimestopSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\TimestopSprite.xnb</Output>
+      <Time>2014-04-12T13:23:43.5169615-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDesert\SpikedTerrain.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDesert\SpikedTerrain</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDesert\SpikedTerrain.xnb</Output>
+      <Time>2014-04-12T13:23:42.3588952-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\InteractableSprites\InteractableDS\BoulderSprite.png</Source>
+      <Name>Sprites\InteractableSprites\InteractableDS\BoulderSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\InteractableSprites\InteractableDS\BoulderSprite.xnb</Output>
+      <Time>2014-04-16T14:35:32.873543-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDS\BrickSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDS\BrickSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\BrickSprite.xnb</Output>
+      <Time>2014-04-15T19:47:04.5745875-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\CollectableSprites\BonfireSprite.png</Source>
+      <Name>Sprites\CollectableSprites\BonfireSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\CollectableSprites\BonfireSprite.xnb</Output>
+      <Time>2014-04-17T15:06:08.6672716-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDS\DSBackgroundSprite.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDS\DSBackgroundSprite</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\DSBackgroundSprite.xnb</Output>
+      <Time>2014-04-17T17:29:30.7662835-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\EnvironmentSprites\EnvironmentDS\JoeBota.png</Source>
+      <Name>Sprites\EnvironmentSprites\EnvironmentDS\JoeBota</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\EnvironmentSprites\EnvironmentDS\JoeBota.xnb</Output>
+      <Time>2014-04-18T18:09:46.7045964-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Music\InTheDesert.wav</Source>
+      <Name>Sounds\Music\InTheDesert</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\InTheDesert.xnb</Output>
+      <Time>2014-03-27T17:43:17.1830936-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\DoorOpen.wav</Source>
+      <Name>Sounds\SFX\DoorOpen</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\DoorOpen.xnb</Output>
+      <Time>2014-03-27T18:33:48.9685018-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Music\InTheHospital.wav</Source>
+      <Name>Sounds\Music\InTheHospital</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\InTheHospital.xnb</Output>
+      <Time>2014-03-30T21:38:03.3901439-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\ButtonPressed.wav</Source>
+      <Name>Sounds\SFX\ButtonPressed</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\ButtonPressed.xnb</Output>
+      <Time>2014-03-31T18:45:31.2572986-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CactusShooting.wav</Source>
+      <Name>Sounds\SFX\CactusShooting</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CactusShooting.xnb</Output>
+      <Time>2014-03-31T18:45:37.8826775-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CharacterHurt.wav</Source>
+      <Name>Sounds\SFX\CharacterHurt</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CharacterHurt.xnb</Output>
+      <Time>2014-03-31T18:45:45.3201029-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CharacterJumping.wav</Source>
+      <Name>Sounds\SFX\CharacterJumping</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CharacterJumping.xnb</Output>
+      <Time>2014-03-31T18:45:51.7154687-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CollectibleCollected.wav</Source>
+      <Name>Sounds\SFX\CollectibleCollected</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CollectibleCollected.xnb</Output>
+      <Time>2014-03-31T18:46:03.0351162-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CrateLanding.wav</Source>
+      <Name>Sounds\SFX\CrateLanding</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CrateLanding.xnb</Output>
+      <Time>2014-03-31T18:46:13.2547007-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\CrateMoving.wav</Source>
+      <Name>Sounds\SFX\CrateMoving</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\CrateMoving.xnb</Output>
+      <Time>2014-03-31T18:46:27.0034871-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\EnemyDeath.wav</Source>
+      <Name>Sounds\SFX\EnemyDeath</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\EnemyDeath.xnb</Output>
+      <Time>2014-03-31T18:46:37.3840808-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\SFX\FishbowlShattered.wav</Source>
+      <Name>Sounds\SFX\FishbowlShattered</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\SFX\FishbowlShattered.xnb</Output>
+      <Time>2014-03-31T18:46:47.2806469-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sounds\Music\Placeholder.wav</Source>
+      <Name>Sounds\Music\Placeholder</Name>
+      <Importer>WavImporter</Importer>
+      <Processor>SoundEffectProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sounds\Music\Placeholder.xnb</Output>
+      <Time>2014-04-02T17:19:20.6939219-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\ScoreFont.spritefont</Source>
+      <Name>Sprites\HUD\HUDDesert\ScoreFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\ScoreFont.xnb</Output>
+      <Time>2014-04-06T20:26:18.4594985-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\SoulsFont.spritefont</Source>
+      <Name>Sprites\HUD\HUDDS\SoulsFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\SoulsFont.xnb</Output>
+      <Time>2014-04-18T19:20:45.0661607-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDesert\DeathFont.spritefont</Source>
+      <Name>Sprites\HUD\HUDDesert\DeathFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDesert\DeathFont.xnb</Output>
+      <Time>2014-04-09T20:34:33.5885292-07:00</Time>
+    </Item>
+    <Item>
+      <Source>Sprites\HUD\HUDDS\LightFont.spritefont</Source>
+      <Name>Sprites\HUD\HUDDS\LightFont</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\Sprites\HUD\HUDDS\LightFont.xnb</Output>
+      <Time>2014-04-18T19:16:03.516057-07:00</Time>
+    </Item>
+    <BuildSuccessful>true</BuildSuccessful>
+    <Settings>
+      <ContentProjectGUID>{F6C27DDA-F065-4DEE-80AC-20F3BD31E4B7}</ContentProjectGUID>
+      <TargetPlatform>Windows</TargetPlatform>
+      <TargetProfile>HiDef</TargetProfile>
+      <BuildConfiguration>Debug</BuildConfiguration>
+      <CompressContent>false</CompressContent>
+      <RootDirectory>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint ZeroContent\</RootDirectory>
+      <LoggerRootDirectory>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\</LoggerRootDirectory>
+      <IntermediateDirectory>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\obj\x86\Debug\</IntermediateDirectory>
+      <OutputDirectory>C:\Users\Joe\Workspace\Irrelevengine\Sprint Zero\Sprint Zero\bin\x86\Debug\Content\</OutputDirectory>
+    </Settings>
+    <Assemblies>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.XImporter.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.VideoImporters.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.TextureImporter.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.FBXImporter.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.EffectImporter.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Program Files (x86)\Microsoft XNA\XNA Game Studio\v4.0\References\Windows\x86\Microsoft.Xna.Framework.Content.Pipeline.AudioImporters.dll</Key>
+        <Value>2011-09-01T14:22:30-07:00</Value>
+      </Assembly>
+      <Assembly>
+        <Key>C:\Windows\Microsoft.Net\assembly\GAC_32\Microsoft.Xna.Framework.Content.Pipeline\v4.0_4.0.0.0__842cf8be1de50553\Microsoft.Xna.Framework.Content.Pipeline.dll</Key>
+        <Value>2014-01-14T19:03:43.439468-08:00</Value>
+      </Assembly>
+    </Assemblies>
+  </Asset>
+</XnaContent>

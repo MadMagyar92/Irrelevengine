@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint Zero", "Sprint Zero.csproj", "{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Sprint ZeroContent", "..\Sprint ZeroContent\Sprint ZeroContent.contentproj", "{F6C27DDA-F065-4DEE-80AC-20F3BD31E4B7}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://jftornwall.visualstudio.com/defaultcollection
+		SccProjectUniqueName0 = Sprint\u0020Zero.csproj
+		SccLocalPath0 = .
+		SccLocalPath1 = .
+		SccProjectUniqueName2 = ..\\Sprint\u0020ZeroContent\\Sprint\u0020ZeroContent.contentproj
+		SccProjectName2 = ../Sprint\u0020ZeroContent
+		SccLocalPath2 = ..\\Sprint\u0020ZeroContent
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x86 = Debug|x86
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}.Debug|x86.ActiveCfg = Debug|x86
+		{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}.Debug|x86.Build.0 = Debug|x86
+		{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}.Release|x86.ActiveCfg = Release|x86
+		{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}.Release|x86.Build.0 = Release|x86
+		{F6C27DDA-F065-4DEE-80AC-20F3BD31E4B7}.Debug|x86.ActiveCfg = Debug|x86
+		{F6C27DDA-F065-4DEE-80AC-20F3BD31E4B7}.Release|x86.ActiveCfg = Release|x86
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

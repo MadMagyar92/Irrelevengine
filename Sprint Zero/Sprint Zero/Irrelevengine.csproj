@@ -1,0 +1,322 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <ProjectGuid>{B3749D88-6CC5-47FA-84D4-B2F947FA6A0F}</ProjectGuid>
+    <ProjectTypeGuids>{6D335F3A-9D43-41b4-9D22-F6F17C4BE596};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Completely_Irrelevant</RootNamespace>
+    <AssemblyName>Sprint Zero</AssemblyName>
+    <TargetFrameworkVersion>v4.0</TargetFrameworkVersion>
+    <TargetFrameworkProfile>Client</TargetFrameworkProfile>
+    <XnaFrameworkVersion>v4.0</XnaFrameworkVersion>
+    <XnaPlatform>Windows</XnaPlatform>
+    <XnaProfile>HiDef</XnaProfile>
+    <XnaCrossPlatformGroupID>4b5b7828-c080-449b-bbba-9d16eb65974d</XnaCrossPlatformGroupID>
+    <XnaOutputType>Game</XnaOutputType>
+    <ApplicationIcon>Game.ico</ApplicationIcon>
+    <Thumbnail>GameThumbnail.png</Thumbnail>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\x86\Debug</OutputPath>
+    <DefineConstants>DEBUG;TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>false</XnaCompressContent>
+    <CodeAnalysisRuleSet>BasicDesignGuidelineRules.ruleset</CodeAnalysisRuleSet>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\x86\Release</OutputPath>
+    <DefineConstants>TRACE;WINDOWS</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <NoStdLib>true</NoStdLib>
+    <UseVSHostingProcess>false</UseVSHostingProcess>
+    <PlatformTarget>x86</PlatformTarget>
+    <XnaCompressContent>true</XnaCompressContent>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Xna.Framework, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Game, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Graphics, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.GamerServices, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Xact, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Video, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Avatar, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Net, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="Microsoft.Xna.Framework.Storage, Version=4.0.0.0, Culture=neutral, PublicKeyToken=842cf8be1de50553, processorArchitecture=x86">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="mscorlib">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Core">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Xml.Linq">
+      <Private>False</Private>
+    </Reference>
+    <Reference Include="System.Net">
+      <Private>False</Private>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Character\CharacterImpl.cs" />
+    <Compile Include="Character\CharacterStateManagerImpl.cs" />
+    <Compile Include="DefaultClassValues\CameraDefaultValues.cs" />
+    <Compile Include="DefaultClassValues\CharacterDefaultValues.cs" />
+    <Compile Include="DefaultClassValues\ICollectableDefaultValues.cs" />
+    <Compile Include="DefaultClassValues\IEnemyDefaultValues.cs" />
+    <Compile Include="DefaultClassValues\IItemDefaultValues.cs" />
+    <Compile Include="DefaultClassValues\TerrainDefaultValues.cs" />
+    <Compile Include="Events\DefaultDeathEvent.cs" />
+    <Compile Include="Events\AbstractEvent.cs" />
+    <Compile Include="Events\DefaultLevelCompleteEvent.cs" />
+    <Compile Include="Events\DefaultSubLevelTransitionEvent.cs" />
+    <Compile Include="Factories\ClockFactory.cs" />
+    <Compile Include="Collisions\CollisionHelper.cs" />
+    <Compile Include="Collisions\Hitbox.cs" />
+    <Compile Include="Events\EventFactory.cs" />
+    <Compile Include="HUD\HUD.cs" />
+    <Compile Include="HUD\ScoreManager.cs" />
+    <Compile Include="HUD\SpriteFontContainer.cs" />
+    <Compile Include="ICollectables\Coin.cs" />
+    <Compile Include="ICollectables\HealthBottle.cs" />
+    <Compile Include="IItems\BoulderItem.cs" />
+    <Compile Include="IItems\FalseBrick.cs" />
+    <Compile Include="Sprites\CollectableSprites\BonfireSprite.cs" />
+    <Compile Include="Sprites\CollectableSprites\CoinSprite.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\DSBackground.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\SpikedTerrainSprite.cs" />
+    <Compile Include="Sprites\InteractableSprites\BoulderSprite.cs" />
+    <Compile Include="IEnemy\GolemEnemy.cs" />
+    <Compile Include="IItems\ContinuousButton.cs" />
+    <Compile Include="IItems\Teleporter.cs" />
+    <Compile Include="IItems\Conveyor.cs" />
+    <Compile Include="Parsers\CameraParser.cs" />
+    <Compile Include="Parsers\CharacterParser.cs" />
+    <Compile Include="Parsers\ICollectableParser.cs" />
+    <Compile Include="Parsers\GenericParser.cs" />
+    <Compile Include="Misc\IDrawable.cs" />
+    <Compile Include="Misc\IUpdatable.cs" />
+    <Compile Include="Levels\Level 1-1\BasicLevel.cs" />
+    <Compile Include="ItemSets\IReceiver.cs" />
+    <Compile Include="ItemSets\ISender.cs" />
+    <Compile Include="Misc\Actions.cs" />
+    <Compile Include="Misc\Camera.cs" />
+    <Compile Include="Character\CharacterDrawingManager.cs" />
+    <Compile Include="Collisions\CollisionContainer.cs" />
+    <Compile Include="Misc\Constants.cs" />
+    <Compile Include="IItems\Door.cs" />
+    <Compile Include="Parsers\IEnemyParser.cs" />
+    <Compile Include="Parsers\IItemParser.cs" />
+    <Compile Include="Parsers\ItemSetParser.cs" />
+    <Compile Include="Parsers\PropertiesParser.cs" />
+    <Compile Include="Parsers\TerrainParser.cs" />
+    <Compile Include="Sprites\CollectableSprites\HealthBottleSprite.cs" />
+    <Compile Include="Sprites\CollectableSprites\TimeStopSprite.cs" />
+    <Compile Include="Sprites\EnemySprites\GolemEnemySprite.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\HospitalBackground.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\LavaSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\HeartFullSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\WaterMeter0pSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\WaterMeter25pSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\WaterMeter50pSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\WaterMeter75pSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\HeartEmptySprite.cs" />
+    <Compile Include="Sprites\HUDSprites\PowerUpViewerSprite.cs" />
+    <Compile Include="Sprites\HUDSprites\WaterMeter100pSprite.cs" />
+    <Compile Include="Sprites\InteractableSprites\ConveyorSprite.cs" />
+    <Compile Include="Sprites\InteractableSprites\DoorSprite.cs" />
+    <Compile Include="Misc\GlobalSuppressions.cs" />
+    <Compile Include="IEnemy\NeedleEnemy.cs" />
+    <Compile Include="ItemSets\ItemSet.cs" />
+    <Compile Include="Levels\LevelManager.cs" />
+    <Compile Include="ItemSets\BasicItemSet.cs" />
+    <Compile Include="Sprites\InteractableSprites\SecretLevelDoorSprite.cs" />
+    <Compile Include="Factories\SoundFactory.cs" />
+    <Compile Include="Sprites\InteractableSprites\ButtonSprite.cs" />
+    <Compile Include="Collisions\CollectableCollisionManager.cs" />
+    <Compile Include="Collisions\CharacterCollisionManager.cs" />
+    <Compile Include="Collisions\IEnemyCollisionManager.cs" />
+    <Compile Include="Collisions\IItemCollisionManager.cs" />
+    <Compile Include="Collisions\CollisionDetector.cs" />
+    <Compile Include="ICollidable\ICollidable.cs" />
+    <Compile Include="IEnemy\CactusEnemy.cs" />
+    <Compile Include="Levels\Level.cs" />
+    <Compile Include="Levels\LevelFactory.cs" />
+    <Compile Include="Parsers\LevelParser.cs" />
+    <Compile Include="Sprites\CollectableSprites\BubbleShieldSprite.cs" />
+    <Compile Include="Sprites\CharacterSprites\CharacterDesert\CharacterJumpingSprite.cs" />
+    <Compile Include="Sprites\CharacterSprites\CharacterDesert\CharacterPushingSprite.cs" />
+    <Compile Include="Sprites\CharacterSprites\CharacterDesert\CharacterIdleSprite.cs" />
+    <Compile Include="Sprites\CharacterSprites\CharacterDesert\CharacterWalkingSprite.cs" />
+    <Compile Include="IItems\ButtonItem.cs" />
+    <Compile Include="Character\AbstractCharacterStateManager.cs" />
+    <Compile Include="IItems\CrateItem.cs" />
+    <Compile Include="IItems\FishbowlItem.cs" />
+    <Compile Include="IEnemy\HortoiseEnemy.cs" />
+    <Compile Include="IEnemy\IEnemy.cs" />
+    <Compile Include="IItems\IItem.cs" />
+    <Compile Include="IEnemy\SpiderEnemy.cs" />
+    <Compile Include="Sprites\CharacterSprites\CharacterDesert\CharacterDeadSprite.cs" />
+    <Compile Include="Sprites\EnemySprites\CactusSprite.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\DesertBackground.cs" />
+    <Compile Include="Sprites\EnemySprites\NeedleSprite.cs" />
+    <Compile Include="Sprites\EnemySprites\SpiderSprite.cs" />
+    <Compile Include="Sprites\InteractableSprites\CrateSprite.cs" />
+    <Compile Include="Sprites\ExampleSprite.cs" />
+    <Compile Include="Controllers\GamePadController.cs" />
+    <Compile Include="Sprites\AbstractAnimatedSprite.cs" />
+    <Compile Include="ICollectables\ICollectable.cs" />
+    <Compile Include="Controllers\IController.cs" />
+    <Compile Include="ICollectables\InvincibilityStar.cs" />
+    <Compile Include="Controllers\KeyboardController.cs" />
+    <Compile Include="Character\AbstractCharacter.cs" />
+    <Compile Include="Character\CharacterStates.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Misc\Program.cs" />
+    <Compile Include="Misc\Game1.cs" />
+    <Compile Include="Sprites\SpriteFactory.cs" />
+    <Compile Include="Sprites\InteractableSprites\FishbowlSprite.cs" />
+    <Compile Include="Sprites\EnemySprites\HortoiseSprite.cs" />
+    <Compile Include="Sprites\CollectableSprites\InvincibilityStarSprite.cs" />
+    <Compile Include="Sprites\CollectableSprites\SunscreenSprite.cs" />
+    <Compile Include="Terrain\AbstractTerrain.cs" />
+    <Compile Include="ICollectables\WaterBottle.cs" />
+    <Compile Include="Sprites\EnvironmentSprites\TerrainSprite.cs" />
+    <Compile Include="Sprites\CollectableSprites\WaterBottleSprite.cs" />
+    <Compile Include="Sprites\InteractableSprites\TeleporterSprite.cs" />
+    <Compile Include="Sprites\StartMenu\LevelMenuSprite.cs" />
+    <Compile Include="Sprites\StartMenu\StartMenuSprite.cs" />
+    <Compile Include="Misc\Timer.cs" />
+    <Compile Include="Terrain\Sandstone.cs" />
+    <Compile Include="UI\UIButton.cs" />
+    <Compile Include="UI\UIStartMenu.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Game.ico" />
+    <Content Include="GameThumbnail.png" />
+    <Content Include="Levels\Level 1-4\Level4.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\example.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\Level 1-1\Level1C.xml">
+      <SubType>Designer</SubType>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\Level 1-1\Level1A.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Levels\Level 1-1\Level1B.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\Level 1-2\Level2.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Levels\Level 1-3\Level3.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <SubType>Designer</SubType>
+    </Content>
+    <Content Include="Levels\Level Hub\LevelHub.xml">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Sprint ZeroContent\IrrelevengineContent.contentproj">
+      <Name>IrrelevengineContent %28Content%29</Name>
+      <XnaReferenceType>Content</XnaReferenceType>
+      <Project>{F6C27DDA-F065-4DEE-80AC-20F3BD31E4B7}</Project>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.0,Profile=Client">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4 Client Profile %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Windows.Installer.4.5">
+      <Visible>False</Visible>
+      <ProductName>Windows Installer 4.5</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram1.cd" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(MSBuildExtensionsPath)\Microsoft\XNA Game Studio\Microsoft.Xna.GameStudio.targets" />
+  <!--
+      To modify your build process, add your task inside one of the targets below and uncomment it. 
+      Other similar extension points exist, see Microsoft.Common.targets.
+      <Target Name="BeforeBuild">
+      </Target>
+      <Target Name="AfterBuild">
+      </Target>
+    -->
+</Project>

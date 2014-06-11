@@ -1,0 +1,1028 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<objects>
+  <properties>
+    <Properties background="hospital" music="hospital"></Properties>
+  </properties>
+
+  <character>
+    <Character type="1" x="112" y="288" width="16" height="16" health="4" waterlevel="4" dehydration="false" dehydrationdamage="1" dehydrationtime="45" collisiontype="liquid"></Character>
+  </character>
+  
+  <camera>
+    <Camera x="0" y="0" width="805" height="480" minx="-1000" maxx="1744" miny="-1000" maxy="640" paddingx="320" paddingy="175" scale="2"></Camera>
+  </camera>
+
+  <collectable>
+    <coin x="720" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="752" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="784" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="816" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="848" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="976" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1008" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1040" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1072" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1104" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="736" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="768" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="800" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="832" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="992" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1024" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1056" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="1088" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="896" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="912" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="928" y="592" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="880" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="864" y="560" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="848" y="544" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="848" y="528" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="848" y="512" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="864" y="496" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="880" y="480" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="896" y="464" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="912" y="464" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="928" y="464" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="944" y="480" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="960" y="496" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="976" y="512" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="976" y="528" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="976" y="544" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="960" y="560" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="944" y="576" width="16" height="16" duration="100" collisiontype="gas"></coin>
+
+    <coin x="896" y="512" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="928" y="512" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="880" y="544" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="896" y="560" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="912" y="560" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="928" y="560" width="16" height="16" duration="100" collisiontype="gas"></coin>
+    <coin x="944" y="544" width="16" height="16" duration="100" collisiontype="gas"></coin>
+  </collectable>
+  
+  <item>    
+    <crate x="112" y="304" width="16" height="16" collisiontype="solid"></crate>
+    <crate x="1248" y="592" width="16" height="16" collisiontype="solid"></crate>
+
+    <door x="192" y="256" width="16" height="16" collisiontype="gas" nextlevel="1" iswaitingforactivation="false" message="sublevel"></door>
+    <door x="256" y="256" width="16" height="16" collisiontype="gas" nextlevel="2" iswaitingforactivation="false" message="sublevel"></door>
+    <door x="320" y="256" width="16" height="16" collisiontype="gas" nextlevel="3" iswaitingforactivation="false" message="sublevel"></door>
+    <door x="384" y="256" width="16" height="16" collisiontype="gas" nextlevel="4" iswaitingforactivation="false" message="sublevel"></door>
+    <door x="448" y="256" width="16" height="16" collisiontype="gas" nextlevel="5" iswaitingforactivation="false" message="sublevel"></door>
+    <door x="512" y="256" width="16" height="16" collisiontype="gas" nextlevel="6" iswaitingforactivation="false" message="sublevel"></door>
+
+    <teleporter x="576" y="544" width="48" height="64" collisiontype="gas" newx="64" newy="288" iswaitingforactivation="false"></teleporter>
+  </item>
+  
+  <enemy>
+    <spider x="1376" y="192" width="16" height="16" orientation="up" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1440" y="192" width="16" height="16" orientation="up" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1504" y="192" width="16" height="16" orientation="up" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1568" y="192" width="16" height="16" orientation="up" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+
+    <spider x="1344" y="304" width="16" height="16" orientation="down" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1408" y="304" width="16" height="16" orientation="down" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1472" y="304" width="16" height="16" orientation="down" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <spider x="1536" y="304" width="16" height="16" orientation="down" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+  </enemy>
+
+  <terrain>
+    <!-- Ceiling -->
+    <Terrain x="0" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="32" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="48" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="64" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="80" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="96" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="112" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="128" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="144" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="160" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="176" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="192" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="208" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="224" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="240" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="272" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="288" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="304" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="336" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="352" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="368" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="400" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="416" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="432" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="464" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="480" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="496" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="528" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="160" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="160" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="0" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="32" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="48" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="64" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="80" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="96" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="112" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="128" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="144" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="160" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="176" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="192" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="208" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="224" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="240" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="272" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="288" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="304" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="336" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="352" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="368" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="400" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="416" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="432" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="464" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="480" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="496" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="528" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="176" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="176" width="16" height="16" type="hospital"></Terrain>
+
+    <!--Left-Most Wall-->
+    <Terrain x="0" y="192" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="208" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="224" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="240" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="256" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="288" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="0" y="304" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="16" y="192" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="208" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="224" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="240" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="256" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="288" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="304" width="16" height="16" type="hospital"></Terrain>
+
+    <!--First Floor-->
+    <Terrain x="0" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="32" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="48" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="64" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="80" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="96" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="112" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="128" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="144" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="160" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="176" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="192" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="208" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="224" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="240" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="272" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="288" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="304" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="336" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="352" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="368" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="400" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="416" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="432" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="464" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="480" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="496" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="528" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="320" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="0" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="32" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="48" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="64" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="80" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="96" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="112" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="128" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="144" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="160" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="176" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="192" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="208" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="224" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="240" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="272" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="288" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="304" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="336" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="352" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="368" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="400" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="416" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="432" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="464" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="480" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="496" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="528" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="336" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="0" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="16" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="32" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="48" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="64" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="80" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="96" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="112" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="128" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="144" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="160" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="176" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="192" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="208" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="224" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="240" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="272" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="288" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="304" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="336" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="352" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="368" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="400" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="416" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="432" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="464" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="480" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="496" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="528" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="352" width="16" height="16" type="hospital"></Terrain>
+
+    <!--Right-Most Wall-->
+    <Terrain x="1696" y="192" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="208" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="224" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="240" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="256" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="288" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="304" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="368" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="384" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="400" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="608" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1712" y="192" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="208" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="224" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="240" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="256" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="288" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="304" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="320" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="336" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="352" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="368" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="384" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="400" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="608" width="16" height="16" type="hospital"></Terrain>
+
+    <!--Lower Floor-->
+    <Terrain x="544" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="608" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="608" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="544" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="576" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="592" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="608" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="624" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="640" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="656" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="672" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="688" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="704" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="720" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="736" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="752" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="768" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="784" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="800" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="816" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="832" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="848" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="864" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="880" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="896" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="912" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="928" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="944" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="960" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="976" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="992" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1008" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1024" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1040" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1056" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1072" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1088" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1104" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1120" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1136" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1152" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1168" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1184" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1200" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1216" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1232" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1248" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1264" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1280" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1696" y="624" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1712" y="624" width="16" height="16" type="hospital"></Terrain>
+
+    <!--Bottom Left Wall-->
+    <Terrain x="544" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="544" y="592" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="560" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="560" y="592" width="16" height="16" type="hospital"></Terrain>
+
+    <!--Fuckin' Stairs...-->
+    <Terrain x="1280" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1296" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="592" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="592" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1296" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1312" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1328" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1344" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1360" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1376" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1392" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1408" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1424" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1440" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1456" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1472" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="576" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="576" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1472" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1488" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="560" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="560" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1488" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1504" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="544" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="544" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1504" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1520" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="528" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="528" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1520" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1536" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="512" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="512" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1536" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1552" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="496" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="496" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1552" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1568" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="480" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="480" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1568" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1584" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="464" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="464" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1584" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1600" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="448" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="448" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1600" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1616" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="432" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="432" width="16" height="16" type="hospital"></Terrain>
+
+    <Terrain x="1616" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1632" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1648" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1664" y="416" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="1680" y="416" width="16" height="16" type="hospital"></Terrain>
+    
+    <!--Door Platforms-->
+    <Terrain x="192" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="256" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="320" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="384" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="448" y="272" width="16" height="16" type="hospital"></Terrain>
+    <Terrain x="512" y="272" width="16" height="16" type="hospital"></Terrain>
+  </terrain>
+</objects>

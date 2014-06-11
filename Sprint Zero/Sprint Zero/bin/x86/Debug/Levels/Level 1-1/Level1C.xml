@@ -1,0 +1,522 @@
+﻿<?xml version="1.0"?>
+<objects>
+
+  <properties>
+    <Properties background="desert" music="desert"></Properties>
+  </properties>
+    
+  <camera>
+    <Camera x="0" y="0" width="805" height="480" minx="0" maxx="736" miny="0" maxy="240" paddingx="320" paddingy="175" scale="2"></Camera>
+  </camera>
+  
+  <terrain>
+    
+    <!-- -1 Out of Bounds-->
+    <Terrain x="-16" y="0" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="16" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="32" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="48" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-16" y="288" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-32" y="288" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="0" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="16" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="32" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="48" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="240" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="256" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="-48" y="272" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 0 "Turtle Pit"-->
+    <Terrain x="0" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="0" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 1 -->
+    <Terrain x="16" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="16" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+
+    <!-- 2 -->
+    <Terrain x="32" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="32" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 3 -->
+    <Terrain x="48" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="48" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+
+    <!-- 4 -->
+    <Terrain x="64" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="64" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 5 -->
+    <Terrain x="80" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="80" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 6 -->
+    <Terrain x="96" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="96" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 7 -->
+    <Terrain x="112" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="112" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 8 -->
+    <Terrain x="128" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="240" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="256" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="272" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="128" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 9 -->
+    <Terrain x="144" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="144" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 10 -->
+    <Terrain x="160" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="160" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 11 -->
+    <Terrain x="176" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="176" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="176" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="176" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="176" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="176" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 12 -->
+    <Terrain x="192" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="192" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="192" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="192" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="192" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="192" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 13 -->
+    <Terrain x="208" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="208" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="208" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="208" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="208" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="208" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 14 -->
+    <Terrain x="224" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="224" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 15 -->
+    <Terrain x="240" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="240" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 16 -->
+    <Terrain x="256" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="256" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 17 -->
+    <Terrain x="272" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="272" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 18 "Spider Pit"-->
+    <Terrain x="288" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="288" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="288" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="288" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="288" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="288" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 19 -->
+    <Terrain x="304" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="304" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="304" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="304" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="304" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="304" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 20 -->
+    <Terrain x="320" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="320" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="320" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="320" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="320" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="320" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 21 -->
+    <Terrain x="336" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="336" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="336" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="336" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="336" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="336" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 22 -->
+    <Terrain x="352" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="352" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 23 -->
+    <Terrain x="368" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="368" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 24 -->
+    <Terrain x="384" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="384" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="384" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="384" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="384" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="384" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 25 -->
+    <Terrain x="400" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="400" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="400" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="400" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="400" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="400" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 26 -->
+    <Terrain x="416" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="416" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 27 -->
+    <Terrain x="432" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="432" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 28 -->
+    <Terrain x="448" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="448" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 29 -->
+    <Terrain x="464" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="464" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 30 "Cactus Pit" -->
+    <Terrain x="480" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="480" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="480" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="480" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="480" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="480" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 31 -->
+    <Terrain x="496" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="496" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 32 -->
+    <Terrain x="512" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="512" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 33 -->
+    <Terrain x="528" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="528" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="528" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="528" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="528" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="528" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 34 -->
+    <Terrain x="544" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="544" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="544" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="544" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="544" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="544" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 35 -->
+    <Terrain x="560" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="560" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 36 -->
+    <Terrain x="576" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="576" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 37 -->
+    <Terrain x="592" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="592" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 38 -->
+    <Terrain x="608" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="608" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="608" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="608" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="608" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="608" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 39 -->
+    <Terrain x="624" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="624" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="624" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="624" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="624" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="624" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 40 -->
+    <Terrain x="640" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="640" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="640" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="640" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="640" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="640" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 41 -->
+    <Terrain x="656" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="656" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="656" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="656" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="656" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="656" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 42 -->
+    <Terrain x="672" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="672" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 43 -->
+    <Terrain x="688" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="688" y="224" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 44 -->
+    <Terrain x="704" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="704" y="288" width="16" height="16" type="sandstone"></Terrain>
+
+    <!-- 45 -->
+    <Terrain x="720" y="0" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="16" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="32" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="48" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="64" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="80" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="96" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="112" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="128" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="144" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="160" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="176" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="192" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="208" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="224" width="16" height="16" type="sandstone"></Terrain>
+    <Terrain x="720" y="288" width="16" height="16" type="sandstone"></Terrain>
+    
+  </terrain>
+
+  <collectable>
+    <sunscreen x="464" y="80" width="16" height="16" duration="30" collisiontype="gas"></sunscreen>
+    <bubbleshield x="80" y="128" width="16" height="16" duration="30" collisiontype="gas"></bubbleshield>
+    <invincibilitystar x="304" y="112" width="16" height="16" duration="10" collisiontype="gas"></invincibilitystar>
+    <waterbottle x="256" y="80" width="16" height="16" duration="1" collisiontype="gas"></waterbottle>
+    <waterbottle x="416" y="80" width="16" height="16" duration="1" collisiontype="gas"></waterbottle>
+  </collectable>
+
+  <item>
+    <crate x="160" y="64" width="16" height="16" collisiontype="solid"></crate>
+    <crate x="304" y="128" width="16" height="16" collisiontype="solid"></crate>
+    <crate x="352" y="64" width="16" height="16" collisiontype="solid"></crate>
+    <crate x="512" y="96" width="16" height="16" collisiontype="solid"></crate>
+    <crate x="576" y="48" width="16" height="16" collisiontype="solid"></crate>
+    <fishbowl x="32" y="112" width="16" height="16" collisiontype="solid"></fishbowl>
+    <door x="688" y="80" width="16" height="16" collisiontype="gas" nextlevel="4" iswaitingforactivation="false" message="level"></door>
+  </item>
+
+  <enemy>
+    <hortoise x="80" y="128" width="16" height="16" orientation="right" power="1" speed="1" freq="0" collisiontype="liquid"></hortoise>
+    <spider x="368" y="128" width="16" height="16" orientation="up" power="1" speed="1" freq="60" collisiontype="liquid"></spider>
+    <cactus x="480" y="128" width="16" height="16" orientation="left" power="1" speed="2" freq="90" collisiontype="liquid"></cactus>
+    <cactus x="656" y="128" width="16" height="16" orientation="left" power="1" speed="2" freq="90" collisiontype="liquid"></cactus>
+  </enemy>
+
+  <character>
+    <Character type="1" x="16" y="110" width="16" height="16" health="4" waterlevel="4" dehydration="true" dehydrationdamage="1" collisiontype="liquid"></Character>
+  </character>
+</objects>
