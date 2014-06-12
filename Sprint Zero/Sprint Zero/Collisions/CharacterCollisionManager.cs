@@ -146,7 +146,7 @@ namespace Completely_Irrelevant
             {
                 Door door = (Door)item;
                 
-                if (door.MessageToReceivers.Equals(Constants.NORM_LEVEL_STRING) && character.CurrentItem is FishbowlItem)
+                if (door.MessageToReceivers.Equals(Constants.NORM_LEVEL_STRING) && character.CurrentItem is PickupItem)
                 {
                     door.HandleCollisionWithCharacter();
                     LevelManager.SendEvent(EventFactory.GetDefaultLevelCompleteEvent());

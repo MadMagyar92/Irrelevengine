@@ -205,7 +205,7 @@
     <Compile Include="IItems\ButtonItem.cs" />
     <Compile Include="Character\AbstractCharacterStateManager.cs" />
     <Compile Include="IItems\CrateItem.cs" />
-    <Compile Include="IItems\FishbowlItem.cs" />
+    <Compile Include="IItems\PickupItem.cs" />
     <Compile Include="IEnemy\HortoiseEnemy.cs" />
     <Compile Include="IEnemy\IEnemy.cs" />
     <Compile Include="IItems\IItem.cs" />

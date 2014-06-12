@@ -40,8 +40,8 @@ namespace Completely_Irrelevant
         public void Consume()
         {
             ClockFactory.StartTimer(timer);
-            character.StateManager.IsInvincible = true;
-            character.StateManager.IsImmuneToDehydration = true;
+            //character.StateManager.IsInvincible = true;
+            //character.StateManager.IsImmuneToDehydration = true;
             HasBeenConsumed = true;
         }
 
@@ -62,8 +62,8 @@ namespace Completely_Irrelevant
         public void Destroy()
         {
             EffectHasFinished = true;
-            character.StateManager.IsInvincible = false;
-            character.StateManager.IsImmuneToDehydration = false;
+            //character.StateManager.IsInvincible = false;
+            //character.StateManager.IsImmuneToDehydration = false;
         }
 
         public void SetCharacter(AbstractCharacter player)

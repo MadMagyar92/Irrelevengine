@@ -7,7 +7,7 @@ using Microsoft.Xna.Framework;
 
 namespace Completely_Irrelevant
 {
-    public class FishbowlItem : IItem
+    public class PickupItem : IItem
     {
         public Vector2 Position { get; set; }
         public Vector2 Size { get; set; }
@@ -17,7 +17,7 @@ namespace Completely_Irrelevant
         public bool ShouldNotifyReceivers { get; set; }
         public string MessageToReceivers { get; set; }
 
-        public FishbowlItem(Rectangle position, AbstractAnimatedSprite sprite, CollisionType collisionType, string message)
+        public PickupItem(Rectangle position, AbstractAnimatedSprite sprite, CollisionType collisionType, string message)
         {
             this.ShouldNotifyReceivers = false;
             this.Position = new Vector2(position.X, position.Y);

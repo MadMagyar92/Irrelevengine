@@ -50,13 +50,13 @@ namespace Completely_Irrelevant
 
                 else if (element.Name.ToString().Equals(GenericParser.fishbowl))
                 {
-                    FishbowlItem f = new FishbowlItem(position, SpriteFactory.GetFishbowlSprite(), collisionType, message);
+                    PickupItem f = new PickupItem(position, SpriteFactory.GetFishbowlSprite(), collisionType, message);
                     ItemList.Add(f);
                 }
 
                 else if (element.Name.ToString().Equals(GenericParser.joebota))
                 {
-                    FishbowlItem jb = new FishbowlItem(position, SpriteFactory.GetJoeBotaSprite(), collisionType, message);
+                    PickupItem jb = new PickupItem(position, SpriteFactory.GetJoeBotaSprite(), collisionType, message);
                     ItemList.Add(jb);
                 }
 

@@ -60,12 +60,6 @@ namespace Completely_Irrelevant
             sprite.Update();
             StateManager.IsCollidingWithPushableObject = false; //Will be set to true after Update if collidable is colliding with a crate or other pushable object.
         }
-
-        private void UpdateHitbox()
-        {
-            CharacterCollisionManager.HandleMovementAndCollisions(this);
-        }
-
         
 
         private void UpdatePowerups()
@@ -243,7 +237,6 @@ namespace Completely_Irrelevant
         }
 
         #endregion
-
         #region Collision Related Methods
 
         private void MoveUp()
@@ -282,7 +275,7 @@ namespace Completely_Irrelevant
             Velocity = new Vector2(Velocity.X, -Constants.CHAR_JMP_CONST * jumpMult);
         }
 
-        public override void PickupItemCheck()
+        public override void PickupItem()
         {
             if (CurrentItem == null)
             {
@@ -295,19 +288,14 @@ namespace Completely_Irrelevant
                 {
                     newItemX = Position.X - 1;
                 }
-                List<FishbowlItem> items = CollisionDetector.GetObjectsAtPosition<FishbowlItem>(this, new Vector2(newItemX, Position.Y));
+                List<PickupItem> items = CollisionDetector.GetObjectsAtPosition<PickupItem>(this, new Vector2(newItemX, Position.Y));
                 if (items.Count > 0)
                 {
-                    PickupItem(items[0]);
+                    CurrentItem = items[0];
+                    items[0].CollisionType = CollisionType.Liquid;
+                    StateManager.IsCarryingObject = true;
                 }
             }
-        }
-
-        public override void PickupItem(IItem item)
-        {
-            CurrentItem = item;
-            item.CollisionType = CollisionType.Liquid;
-            StateManager.IsCarryingObject = true;
         }
 
         public override void DropItem()

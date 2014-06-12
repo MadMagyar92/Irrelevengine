@@ -43,9 +43,9 @@ namespace Completely_Irrelevant
             up = CollisionHelper.IsUpVector(collisionDirection);
             down = CollisionHelper.IsDownVector(collisionDirection);
 
-            if (item is FishbowlItem && down)
+            if (item is PickupItem && down)
             {
-                ((FishbowlItem)item).FloorCollision();
+                ((PickupItem)item).FloorCollision();
             }
             if (item is CrateItem && down)
             {

@@ -14,7 +14,7 @@ namespace Completely_Irrelevant
         public int MeterLevel { get; set; }
         protected int maxMeterLevel;
 
-        public IItem CurrentItem { get; set; }
+        public PickupItem CurrentItem { get; set; }
         public ICollectable CurrentPowerup { get; set; }
 
         public Vector2 Position { get; set; }
@@ -22,26 +22,57 @@ namespace Completely_Irrelevant
         public Vector2 Velocity { get; set; }
         public CollisionType CollisionType { get; set; }
 
-
         public bool ShouldNotifyReceivers { get; set; }
         public string MessageToReceivers { get; set; }
+        public AbstractCharacterStateManager StateManager { get; set; }
 
         protected AbstractAnimatedSprite sprite;
-        public AbstractCharacterStateManager StateManager;
         protected CharacterDrawingManager characterDrawingManager;
 
         public AbstractCharacter()
         {
-            /**
-             * TODO: INSERT CONSTRUCTOR LOGIC HERE
-             * */
+
+        }
+
+        public virtual void Receive(List<string> messages)
+        {
+
         }
 
         public virtual void Update()
         {
-            /**
-             * TODO: INSERT UPDATE LOGIC HERE
-             * */
+            UpdateHitbox();
+        }
+
+
+        #region Should NOT Be Overridden
+
+        private float ItemXPosition()
+        {
+            if (StateManager.IsFacingRight)
+            {
+                return Position.X + Size.X + 1;
+            }
+            else
+            {
+                return Position.X - CurrentItem.Size.X - 1;
+            }
+        }
+        
+        protected void UpdateHitbox()
+        {
+            CharacterCollisionManager.HandleMovementAndCollisions(this);
+        }
+
+        public virtual void Jump()
+        {
+            float jumpMult = 1;
+            if (CurrentItem != null)
+            {
+                jumpMult = Constants.ENCUMB_JMP_CONST;
+            }
+
+            Velocity = new Vector2(Velocity.X, -Constants.CHAR_JMP_CONST * jumpMult);
         }
 
         public virtual void ChangeHealthLevel(int value)
@@ -49,23 +80,14 @@ namespace Completely_Irrelevant
             if (HealthLevel + value >= maxHealthLevel)
             {
                 HealthLevel = maxHealthLevel;
-                /**
-                 * TODO: INSERT MAXED HEALTH LOGIC HERE
-                 * */
             }
             else if (HealthLevel + value < 0)
             {
                 HealthLevel = 0;
-                /**
-                 * TODO: INSERT DEATH LOGIC HERE
-                 * */
             }
             else
             {
                 HealthLevel += value;
-                /**
-                 * TODO: INSERT HEALTH INCREASE LOGIC HERE
-                 * */
             }
         }
 
@@ -74,97 +96,92 @@ namespace Completely_Irrelevant
             if (MeterLevel + value > maxMeterLevel)
             {
                 MeterLevel = maxMeterLevel;
-                /**
-                 * TODO: INSERT MAXED HEALTH LOGIC HERE
-                 * */
             }
             else if (MeterLevel + value < 0)
             {
                 MeterLevel = 0;
-                /**
-                 * TODO: INSERT DEATH LOGIC HERE
-                 * */
             }
             else
             {
                 MeterLevel += value;
-                /**
-                 * TODO: INSERT HEALTH INCREASE LOGIC HERE
-                 * */
             }
         }
+
+        public virtual void Draw(SpriteBatch spriteBatch, Camera camera)
+        {
+            characterDrawingManager.Draw(spriteBatch, camera);
+        }
+
+        public virtual void PickupItem()
+        {
+            if (CurrentItem == null)
+            {
+                float newItemX = ItemXPosition();
+
+                List<PickupItem> items = CollisionDetector.GetObjectsAtPosition<PickupItem>(this, new Vector2(newItemX, Position.Y));
+                if (items.Count > 0)
+                {
+                    CurrentItem = items[0];
+                    items[0].CollisionType = CollisionType.Liquid;
+                    StateManager.IsCarryingObject = true;
+                }
+            }
+        }
+
+        public virtual void DropItem()
+        {
+            float newItemX = ItemXPosition();
+
+            if (CollisionDetector.IsPositionFree(CurrentItem, new Vector2(newItemX, Position.Y + Size.Y - CurrentItem.Size.Y)))
+            {
+                CurrentItem.CollisionType = CollisionType.Solid;
+                CurrentItem.Position = new Vector2(newItemX, Position.Y);
+                CurrentItem.Velocity = new Vector2(0, Velocity.Y);
+                StateManager.IsCarryingObject = false;
+                CurrentItem = null;
+            }
+        }
+
+        public virtual void LandOnGround()
+        {
+            if (Velocity.Y >= 0)
+            {
+                Velocity = new Vector2(Velocity.X, 0);
+                StateManager.HandleLanding();
+            }
+        }
+
+        public virtual void HitBlockFromBelow()
+        {
+            Velocity = new Vector2(Velocity.X, Math.Max(0, Velocity.Y));
+        }
+
+        public virtual void GoToAir()
+        {
+            StateManager.GoToAir();
+        }
+
+        public virtual void UpdateItemPosition()
+        {
+            if (CurrentItem != null && CurrentItem is PickupItem)
+            {
+                CurrentItem.Position = new Vector2(Position.X, Position.Y - CurrentItem.Size.Y);
+                ((PickupItem)CurrentItem).FloorCollision();
+            }
+        }
+
+
 
         public virtual void SetSprite(AbstractAnimatedSprite sprite)
         {
             this.sprite = sprite;
         }
 
-        public virtual void Receive(List<string> messages)
+        public virtual AbstractAnimatedSprite GetSprite()
         {
-
+            return sprite;
         }
 
-        public virtual void Draw(SpriteBatch spriteBatch, Camera camera)
-        {
-            /**
-             * TODO: INSERT DRAW LOGIC HERE
-             * */
-            characterDrawingManager.Draw(spriteBatch, camera);
-        }
-
-        public virtual void Jump()
-        {
-            /**
-             * TODO: INSERT JUMP LOGIC HERE
-             * */
-        }
-
-        public virtual void PickupItemCheck()
-        {
-            float jumpMult = 1;
-            if (CurrentItem != null)
-            {
-                jumpMult = Constants.ENCUMB_JMP_CONST;
-            }
-
-            /**
-             * TODO: INSERT JUMP EFFECTS HERE
-             * */
-
-            Velocity = new Vector2(Velocity.X, -Constants.CHAR_JMP_CONST * jumpMult);
-        }
-
-        public virtual void PickupItem(IItem item)
-        {
-
-        }
-
-        public virtual void DropItem()
-        {
-
-        }
-
-        public virtual void LandOnGround()
-        {
-
-        }
-        public virtual void HitBlockFromBelow()
-        {
-
-        }
-
-        public virtual void GoToAir()
-        {
-
-        }
-
-        public virtual void UpdateItemPosition()
-        {
-            if (CurrentItem != null && CurrentItem is FishbowlItem)
-            {
-                CurrentItem.Position = new Vector2(Position.X, Position.Y - CurrentItem.Size.Y);
-                ((FishbowlItem)CurrentItem).FloorCollision();
-            }
-        }
+        #endregion
     }
 }

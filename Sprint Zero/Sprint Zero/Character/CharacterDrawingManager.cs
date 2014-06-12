@@ -35,7 +35,7 @@ namespace Completely_Irrelevant
             {
                 if (blinkingSequence % 8 <= 4)
                 {
-                    DrawCharacter(character, spriteBatch, camera);
+                    DrawCharacter(spriteBatch, camera);
                 }
 
                 blinkingSequence--;
@@ -50,15 +50,15 @@ namespace Completely_Irrelevant
 
             else
             {
-                DrawCharacter(character, spriteBatch, camera);
+                DrawCharacter(spriteBatch, camera);
             }
         }
 
-        private void DrawCharacter(AbstractCharacter character, SpriteBatch spriteBatch, Camera camera)
+        private void DrawCharacter(SpriteBatch spriteBatch, Camera camera)
         {
             Color color = GetPowerupColor(character);
 
-            character.Draw(spriteBatch, camera);
+            character.GetSprite().Draw(spriteBatch, (int)character.Position.X, (int)character.Position.Y, camera);
             hud.Draw(spriteBatch, camera);
             
         }

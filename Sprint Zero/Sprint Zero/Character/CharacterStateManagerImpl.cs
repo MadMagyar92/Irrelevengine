@@ -164,16 +164,16 @@ namespace Completely_Irrelevant
             }
             else
             {
-                character.PickupItemCheck();
+                character.PickupItem();
             }
         }
 
         public override void HandleDrinkInput()
         {
-            if (character.HealthLevel < 4 && character.MeterLevel > 0 && character.CurrentItem is FishbowlItem)
+            if (character.HealthLevel < 4 && character.MeterLevel > 0 && character.CurrentItem is PickupItem)
             {
-                character.HealthLevel += 1;
-                character.MeterLevel -= 1;
+                character.ChangeHealthLevel(1);
+                character.ChangeMeterLevel(-1);
             }
 
         }

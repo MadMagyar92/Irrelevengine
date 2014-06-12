@@ -109,9 +109,9 @@ namespace Completely_Irrelevant
                 {
                     CharacterCollisionManager.HandleMovementAndCollisions((AbstractCharacter)collidable);
                 }
-                else if (collidable is FishbowlItem)
+                else if (collidable is PickupItem)
                 {
-                    IItemCollisionManager.HandleMovement((FishbowlItem)collidable);
+                    IItemCollisionManager.HandleMovement((PickupItem)collidable);
                 }
                 else if (collidable is CrateItem)
                 {
