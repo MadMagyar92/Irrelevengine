@@ -25,8 +25,9 @@
 			<itunes:category text="Video Games"/>
         </itunes:category>
  
-		<item>
+	<item>
             <title>[Censored] Gamers Say Episode 4: I MIGHT BE A WEABOO</title>
+            <itunes:image href="https://osupodcast.files.wordpress.com/2014/09/censoredgamerssay.png"/>
             <itunes:author>Joe Bota, Sydney Harmon, Peter Samyn</itunes:author>
             <itunes:subtitle><![CDATA[What has happened? Why can't I swear? My ears are bleeding! Also, Peter discusses his return to the lusty Soul Calibur Lost Swords, Joe takes another trip down nostalgia lane with Theatrhythm Curtain Call and Final Fantasy Tactics: War of the Lions, Sydney expresses disappointment with the Microsoft acquisition of Mojang, and everyone realizes what a weirdo Joe is.]]>
 			</itunes:subtitle>
