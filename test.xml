@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" version="2.0">
+	<channel>
+        <title>[Censored] Gamers Say</title>
+        <link>http://osupodcast.wordpress.com</link>
+        <language>en-us</language>
+        <copyright>Free to remix and rehost!</copyright>
+ 
+        <itunes:subtitle>Joe Bota, Sydney Harmon, and Peter Samyn talk about video games and gaming news.</itunes:subtitle>
+ 
+        <itunes:author>Joe Bota, Sydney Harmon, Peter Samyn</itunes:author>
+ 
+        <itunes:summary>Friends discuss their own warped opinions about video games and gaming news. Sometimes right, but often wrong.</itunes:summary>
+ 
+        <description>Joe Bota, Sydney Harmon, and Peter Samyn talk dirty about video games and video game news.</description>
+ 
+        <itunes:owner>
+            <itunes:name>Joe Bota</itunes:name>
+            <itunes:email>joseph.bota@gmail.com</itunes:email>
+        </itunes:owner>
+ 
+        <itunes:image href="http://s2.wp.com/i/buttonw-com.png"/>
+ 
+        <itunes:category text="Games &amp; Hobbies">
+			<itunes:category text="Video Games"/>
+        </itunes:category>
+ 
+		<item>
+            <title>[Censored] Gamers Say Episode 4: I MIGHT BE A WEABOO</title>
+            <itunes:author>Joe Bota, Sydney Harmon, Peter Samyn</itunes:author>
+            <itunes:subtitle><![CDATA[
+				What has happened? Why can't I swear? My ears are bleeding! Also, Peter discusses
+				his return to the lusty Soul Calibur Lost Swords, Joe takes another trip down nostalgia lane
+				with Theatrhythm Curtain Call and Final Fantasy Tactics: War of the Lions, Sydney expresses
+				disappointment with the Microsoft acquisition of Mojang, and everyone realizes what a weirdo
+				Joe is.]]>
+			</itunes:subtitle>
+            <itunes:summary><![CDATA[
+				What has happened? Why can't I swear? My ears are bleeding! Also, Peter discusses
+				his return to the lusty Soul Calibur Lost Swords, Joe takes another trip down nostalgia lane
+				with Theatrhythm Curtain Call and Final Fantasy Tactics: War of the Lions, Sydney expresses
+				disappointment with the Microsoft acquisition of Mojang, and everyone realizes what a weirdo
+				Joe is.]]>
+            </itunes:summary>
+            <enclosure url="https://archive.org/download/CensoredGamersSay20140920/%5BCensored%5D%20Gamers%20Say%202014-09-20.mp3" length="72427709" type="audio/mpeg"/>
+			<guid isPermaLink="false">http://osupodcast.wordpress.com/2014/09/20/censored-gamers-say-004/</guid>
+			<pubDate>Sat, 20 Sep 2014 05:01:48 +0000</pubDate>
+			<itunes:duration>1:26:13</itunes:duration>
+			<itunes:keywords>Video, Games, Gaming, Zucchini, Thumbs</itunes:keywords>
+        </item>
+ 
+		<itunes:explicit>yes</itunes:explicit>
+		<itunes:block>no</itunes:block>
+	</channel>
+</rss>
